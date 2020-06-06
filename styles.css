@@ -1,0 +1,49 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li{
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #383838;
+    margin: 10px;
+}
+
+
+.banner{
+    position: relative;
+}
+.banner img1{
+    max-width: 100%;
+}
+/* .banner .welcome{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(65, 63, 63, 0.30);
+    color: white;
+    text-align:center;
+    width: 97%;
+} */
